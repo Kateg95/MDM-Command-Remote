@@ -1,12 +1,12 @@
 #!/usr/bin/expect
-# mereset recovery key dengan admin user DXTR
+# mereset recovery key dengan admin user XXXX
 spawn fdesetup changerecovery -personal
 expect {
     "Enter the user name:" {
-        send "dxtr\r"
+        send "xxxx\r"
         exp_continue
         }
-    "Enter the password for user 'dxtr':" {
+    "Enter the password for user 'xxxx':" {
         send "Born2party\r"
         exp_continue
         }
